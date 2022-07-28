@@ -182,6 +182,7 @@ Footer section star
     width: 100%;
     height: 400px;
     background-color: #161616;
+    margin: 0px;
 }
 hr{
     border: 1px solid whitesmoke;
@@ -284,7 +285,7 @@ hr{
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        margin: 50px 0px 50px 0px;
+        margin: 50px 0px 00px 0px;
     }
     .side-menu{
         width: 80%;
@@ -333,11 +334,11 @@ hr{
         margin-bottom: 20px;
     }
     .transfer-container{
-        width: auto;
+        width: 100%;
         height: 90%;
         background-color: rgb(255, 255, 255);
         box-shadow: 2px 1px 10px rgb(235, 235, 235);
-        border-radius: 15px;
+        border-radius: 10px;
     }
     .transfer-container:hover{
         background-color: #ffb30f;
@@ -350,7 +351,7 @@ hr{
     .transfer-image img{
         width: 100%;
         height: 100%;
-        border-radius: 15px;
+        border-radius: 10px;
     }
     .transfer-text{
         width: 100%;
@@ -402,10 +403,11 @@ hr{
     Footer section star  
     ---------------------------------*/
     .footer{
-        margin: 0px 0px 0px 0px;
+        margin: auto;
         width: 100%;
-        height: 350px;
+        height: 400px;
         background-color: #161616;
+        position: absolute;
     }
     hr{
         border: 1px solid whitesmoke;
@@ -430,6 +432,7 @@ hr{
     .footer-menu li{
         list-style: none;
         text-align: center;
+        margin-top: 10px;
     }
     .footer-menu li a{
         text-decoration: none;
