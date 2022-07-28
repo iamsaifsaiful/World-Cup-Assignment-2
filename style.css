@@ -71,6 +71,7 @@ body{
     display: flex;
     justify-content: space-between;
     margin: 150px 10% 150px 10%;
+    width: 80%;
 }
 .side-menu{
     width: 25%;
@@ -306,7 +307,8 @@ hr{
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        margin: 50px 0px 00px 0px;
+        margin: 50px 2% 00px 0px;
+        width: 96%;
     }
     .side-menu{
         width: 80%;
@@ -355,7 +357,7 @@ hr{
         margin-bottom: 20px;
     }
     .transfer-container{
-        width: 100%;
+        width: auto;
         height: 90%;
         background-color: rgb(255, 255, 255);
         box-shadow: 2px 1px 10px rgb(235, 235, 235);
@@ -549,6 +551,7 @@ hr{
         flex-direction: column;
         justify-content: space-between;
         margin: 70px 5% 00px 5%;
+        width: 90%;
     }
     .side-menu{
         width: 100%;
