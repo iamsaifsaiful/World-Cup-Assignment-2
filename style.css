@@ -67,7 +67,7 @@ body{
     margin: 150px 10% 150px 10%;
 }
 .side-menu{
-    width: 24%;
+    width: 25%;
     height: 350px;
     background-color: #161616;
     border-radius: 15px;
@@ -180,7 +180,7 @@ Footer section star
 ---------------------------------*/
 .footer{
     width: 100%;
-    height: 400px;
+    height: 450px;
     background-color: #161616;
     margin: 0px;
 }
@@ -201,7 +201,7 @@ hr{
     display: flex;
     width: 50%;
     margin-left: 25%;
-    margin-top: 70px;
+    margin-top: 40px;
     justify-content: space-between;
 }
 .footer-menu li{
@@ -210,6 +210,21 @@ hr{
 .footer-menu li a{
     text-decoration: none;
     color: whitesmoke;
+}
+.social-icon{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    margin-left: 49%;
+    margin-top: 50px;
+}
+.social-icon li{
+    list-style: none;
+    letter-spacing: 20px;
+}
+.social-icon li a{
+    color: whitesmoke;
+    text-decoration: none;
 }
     /* ------------------
             mobile version media quetries 
@@ -405,7 +420,7 @@ hr{
     .footer{
         margin: auto;
         width: 100%;
-        height: 400px;
+        height: 450px;
         background-color: #161616;
         position: absolute;
     }
@@ -427,7 +442,7 @@ hr{
         flex-direction: column;
         width: 50%;
         margin-left: 14%;
-        margin-top: 30px;
+        margin-top: 20px;
     }
     .footer-menu li{
         list-style: none;
@@ -437,6 +452,21 @@ hr{
     .footer-menu li a{
         text-decoration: none;
         color: whitesmoke;
+    }
+    .social-icon{
+        display: flex;
+        flex-direction: row;
+        width: 50%;
+        margin-left: 25%;
+        margin-top: 22px;
+    }
+    .social-icon li{
+        list-style: none;
+        letter-spacing: 20px;
+    }
+    .social-icon li a{
+        color: whitesmoke;
+        text-decoration: none;
     }
 }
 /*--------------------------
@@ -634,7 +664,7 @@ Footer section star
 ---------------------------------*/
     .footer{
         width: 100%;
-        height: 300px;
+        height: 350px;
         background-color: #161616;
         margin-top: 0px;
     }
@@ -656,7 +686,7 @@ Footer section star
         flex-wrap: wrap;
         width: 100%;
         margin-left: 0%;
-        margin-top: 20px;
+        margin-top: 15px;
         justify-content: center;
         padding: 0px;
     }
@@ -668,5 +698,20 @@ Footer section star
     .footer-menu li a{
         text-decoration: none;
         color: whitesmoke;
+    }
+    .social-icon{
+        display: flex;
+        flex-direction: row;
+        width: 50%;
+        margin-left: 37%;
+        margin-top: 25px;
+    }
+    .social-icon li{
+        list-style: none;
+        letter-spacing: 20px;
+    }
+    .social-icon li a{
+        color: whitesmoke;
+        text-decoration: none;
     }
  }
