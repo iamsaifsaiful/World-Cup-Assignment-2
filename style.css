@@ -308,10 +308,10 @@ hr{
         flex-direction: column;
         justify-content: space-between;
         margin: 50px auto 00px auto;
-        width: 88%;
+        width: auto;
     }
     .side-menu{
-        width: 80%;
+        width: 70%;
         height: 200px;
         background-color: #ffffff;
         border-radius: 10px;
@@ -346,7 +346,8 @@ hr{
         background-color: #ffb30f;
     }
     .Transfer{
-        width: 96%;
+        width: 87%;
+        height: auto;
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         justify-content: space-between;
@@ -357,8 +358,9 @@ hr{
         margin-bottom: 20px;
     }
     .transfer-container{
-        width: auto;
+        width: 96%;
         height: 90%;
+        margin: auto;
         background-color: rgb(255, 255, 255);
         box-shadow: 2px 1px 10px rgb(235, 235, 235);
         border-radius: 10px;
