@@ -71,7 +71,7 @@ body{
     display: flex;
     justify-content: space-between;
     margin: 150px auto 150px auto;
-    width: 96%;
+    width: 80%;
 }
 .side-menu{
     width: 25%;
